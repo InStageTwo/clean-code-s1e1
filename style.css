@@ -43,16 +43,16 @@
 }
 
 .todo-app__task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .todo-app__task-item {
-  list-style:none;
+  list-style: none;
 }
 
 .todo-app__button {
-  outline:none;
+  outline: none;
 }
 
 .todo-app__button {
@@ -153,8 +153,8 @@
 
 /* Edit Task */
 .todo-app__task-item-edit-mode .todo-app__input-edit {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -168,5 +168,5 @@
 }
 
 .todo-app__task-item-edit-mode label {
-  display:none;
+  display: none;
 }
