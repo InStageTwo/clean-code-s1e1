@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -39,10 +39,10 @@ body {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+.todo-app__task-item {
   list-style:none;
 }
-input,
+
 .todo-app__button {
   outline:none;
 }
@@ -80,6 +80,7 @@ input,
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  outline: none;
 }
 .todo-app__input:focus {
   color: #333;
